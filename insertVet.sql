@@ -14,4 +14,4 @@ insert into Appointment(VetID,UserID,Date_Visit,Time_Visit,Reason_For_Visit,PetI
 
 insert into Invoices(InvoiceID,VetID,UserID,Services_Rendered,Date_Visit,Time_Visit,Amount) values('I01','V01','U01','Neutering',3/12/18,'9:00AM','$10.00');
 
-insert into Ratings(RatingID,UserID,VetID,Services_Rendered,Feedback) values('R01','U01','V01','Neutering','Service was good');
+insert into Ratings(RatingID,UserID,VetID,Services_Rendered,Feedback) values('R01','U01','V01','Neutering','4/5');

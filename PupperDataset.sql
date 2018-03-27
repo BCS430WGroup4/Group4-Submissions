@@ -83,7 +83,7 @@ RatingID VarChar(200),
 UserID VarChar(200),
 VetID VarChar(200),
 Services_Rendered VarChar(200),
-Feedback VarChar(200),
+Rating VarChar(200),
 constraint Rat_PK Primary Key(RatingID),
 constraint rat_inv_fk Foreign Key(UserID,VetID,Services_Rendered) REFERENCES Invoices(UserID,VetID,Services_Rendered)
 );
